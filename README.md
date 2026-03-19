@@ -4,8 +4,8 @@ DaRipetere: 🔴
 Completato: 🟢 
 
 # Week 1  
- - Introduction to Python 🟡  
- - Abstract Data Types and Data Strucutres 🟡  
+ - Introduction to Python 🟠  
+ - Abstract Data Types and Data Strucutres 🟠  
 _References_: GTG, chap. 6, pages 229-235  
 
  - Trees and Linked Data Structures 🟡  
