@@ -83,3 +83,80 @@ class Tree:
 
 
     
+#   --------------------------- TRAVERSAL ALGORITHMS GENERAL TREE --------------------------- 
+
+    def __iter__(self):
+        """ Generate an iteration of the tree's elements. """
+        for p in self.positions():
+            yield p.element()
+
+    """ Preorder Traversal"""
+    def positions(self):
+        """ Generate an iteration of the tree's positions. """
+        return self.preorder()
+    
+
+
+#   --------------------------- PREORDER ---------------------------
+    def preorder(self):
+        """ Generate a preorder iteration of positions in the tree. """
+        if not self.is_empty():
+            for p in self._subtree_preorder(self.root()):
+                yield p
+
+    def _subtree_preorder(self, p):
+        """ Generate a preorder iteration of positions in subtree rooted at p. """
+        yield p
+        for c in self.children(p):
+            for other in self._subtree_preorder(c):
+                yield other
+
+
+#   --------------------------- POSTORDER ---------------------------
+    def postorder(self):
+        """ Generate a postorder iteration of positions in the tree. """
+        if not self.is_empty():
+            for p in self._subtree_postorder(self.root()):
+                yield
+        
+    def _subtree_postorder(self, p):
+        """ Generate a postorder iteration of positions in subtree rooted at p. """
+        for c in self.children(p):
+            for other in self._subtree_postorder(c):
+                yield other
+        yield p
+
+    
+#   --------------------------- BREADTH_FIRST ---------------------------
+
+#    def breadthfirst(self):
+#        """ Generate a breadth-first iteration of the positions of the tree. """
+#        if not self.is_empty():
+#            fringe = LinkedQueue()
+#            fringe.enqueue(self.root())
+#            while not fringe.is_empty():
+#                p = fringe.dequeue()
+#                yield p
+#                for c in self.children(p):
+#                    fringe.enqueue(c)
+
+
+# --------------------------- INORDER ---------------------------
+
+    def inorder(self):
+        """ Generate an inorder iteration of positions in the tree. """
+        if not self.is_empty():
+            for p in self._subtree_inorder(self.root()):
+                yield p
+
+    def _subtree_inorder(self, p):
+        """ Generate an inorder iteration of positions in subtree rooted at p. """
+        if self.left(p) is not None:
+            for other in self._subtree_inorder(self.left(p)):
+                yield other
+        yield p
+        if self.right(p) is not None:
+            for other in self._subtree_inorder(self.right(p)):
+                yield other
+
+

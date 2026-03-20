@@ -13,6 +13,8 @@
 \date{\today}
 
 \begin{document}
+\tableofcontents
+\newpage
 
 \maketitle
 
@@ -108,8 +110,19 @@ Il blocco \texttt{return a + b} (Righe 8-14)
 Sebbene l'interposizione della PVM renda Python intrinsecamente più lento del C, questo approccio permette una gestione della memoria semplificata, una portabilità cross-platform immediata e una velocità di sviluppo superiore, delegando le operazioni critiche a routine interne pre-ottimizzate in C.
 
 
+
+
+
+
 \newpage
-\section{Trees}
+\section{Trees Hierarchy}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Immagini/TreesHierarchy.png}
+\end{figure}
+
+\subsection{General Tree}
 
 \begin{figure}[H]
     \centering
@@ -128,12 +141,123 @@ Sebbene l'interposizione della PVM renda Python intrinsecamente più lento del C
     \item Un \textbf{path} è una sequenza di nodi tali che qualsiasi coppia di nodi consecutivi è un \textbf{edge}.
 \end{itemize}
 
-\subsection{Abstract Data Type}
+\subsubsection{General Tree - Abstract Data Type}
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.7\linewidth]{Immagini/ADT_Tree.png}
 \end{figure}
+
+
+\subsection{Binary Tree}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Immagini/BinaryTree.png}
+    \caption{Binary Tree}
+\end{figure}
+
+\subsubsection{Binary Tree - Abstract Data Type}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Immagini/BinaryTreeADT.png}
+    \caption{Binary Tree ADT}
+\end{figure}
+
+\subsubsection{Properties of Binary Trees}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Immagini/BinaryTreesProperties.png}
+    \caption{Binary Tree Properties}
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Immagini/BinaryTreesProperties2.png}
+    \caption{Proepr Binary Tree Properties}
+\end{figure}
+
+\subsection{General Tree Traversal}
+\subsubsection{Preorder e Postorder}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Immagini/PreorderTraversal.png}
+    \caption{Preorder General Tree Traversal}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Immagini/PostorderTraversal.png}
+    \caption{Postorder General Tree Traversal}
+\end{figure}
+
+\paragraph[H]{Running Time Analysis}
+Runtime Analysis di Preorder e Postorder General Tree Traversal
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Immagini/RuntimeAnalysis.png}
+    \caption{Running Time Analysis di Postorder e Preorder General Tree Traversal}
+\end{figure}
+
+\subsubsection{Breadth-First Tree Traversal}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Immagini/BreadthFirstTrav.png}
+    \caption{Breadth-First General Tree Traversal}
+\end{figure}
+
+\subsubsection{Inorder Traversal}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Immagini/InorderTraversal.png}
+    \caption{Inorder General Tree Traversal}
+\end{figure}
+
+\subsubsection{Tree Traversal in Python}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Immagini/TreeTravPython.png}
+    \caption{Tree Traversal in Python}
+\end{figure}
+
+\paragraph{Preorder in Python}
+Preorder in Python
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Immagini/PreorderPython.png}
+    \caption{Preorder in Python}
+\end{figure}
+
+\paragraph{Postorder in Python}
+Postorder in Python
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Immagini/PostorderPython.png}
+    \caption{Postorder in Python}
+\end{figure}
+
+\paragraph{Breadth-First in Python}
+Breadth-First in Python
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Immagini/BreadthFirstPython.png}
+    \caption{Breadth-First in Python}
+\end{figure}
+
+\paragraph{Inoredr in Python}
+Inorder in Python
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Immagini/InorderPython.png}
+    \caption{Inorder in Python}
+\end{figure}
+
+
 
 
 

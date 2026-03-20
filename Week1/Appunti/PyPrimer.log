@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.22)  20 MAR 2026 15:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.22)  20 MAR 2026 16:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -202,85 +202,202 @@ Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (C:\Users\miche\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 17.
+)) (PyPrimer.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
  (C:\Users\miche\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 17.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
  (C:\Users\miche\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-<Immagini/ExecutionFlux.png, id=1, 947.79094pt x 331.99031pt>
-File: Immagini/ExecutionFlux.png Graphic file (type png)
-<use Immagini/ExecutionFlux.png>
-Package pdftex.def Info: Immagini/ExecutionFlux.png  used on input line 27.
-(pdftex.def)             Requested size: 312.00119pt x 109.28358pt.
+))
+\tf@toc=\write3
+\openout3 = `PyPrimer.toc'.
+
 
 
 [1
 
-{C:/Users/miche/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Immagini/ExecutionFlux.png>]
-<Immagini/CvsPython.png, id=13, 945.5325pt x 524.71031pt>
+{C:/Users/miche/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+<Immagini/ExecutionFlux.png, id=7, 947.79094pt x 331.99031pt>
+File: Immagini/ExecutionFlux.png Graphic file (type png)
+<use Immagini/ExecutionFlux.png>
+Package pdftex.def Info: Immagini/ExecutionFlux.png  used on input line 29.
+(pdftex.def)             Requested size: 312.00119pt x 109.28358pt.
+
+
+[2 <./Immagini/ExecutionFlux.png>]
+<Immagini/CvsPython.png, id=16, 945.5325pt x 524.71031pt>
 File: Immagini/CvsPython.png Graphic file (type png)
 <use Immagini/CvsPython.png>
-Package pdftex.def Info: Immagini/CvsPython.png  used on input line 50.
+Package pdftex.def Info: Immagini/CvsPython.png  used on input line 52.
 (pdftex.def)             Requested size: 312.00119pt x 173.13892pt.
 
-Overfull \hbox (52.8399pt too wide) in paragraph at lines 56--64
+Overfull \hbox (52.8399pt too wide) in paragraph at lines 58--66
  [][] 
  []
 
 
 
-[2 <./Immagini/CvsPython.png>]
-<Immagini/Utility.png, id=19, 651.18282pt x 164.11313pt>
+[3 <./Immagini/CvsPython.png>]
+<Immagini/Utility.png, id=22, 651.18282pt x 164.11313pt>
 File: Immagini/Utility.png Graphic file (type png)
 <use Immagini/Utility.png>
-Package pdftex.def Info: Immagini/Utility.png  used on input line 72.
+Package pdftex.def Info: Immagini/Utility.png  used on input line 74.
 (pdftex.def)             Requested size: 272.99881pt x 68.80434pt.
-<Immagini/outputUtility.png, id=20, 579.66562pt x 140.77594pt>
+<Immagini/outputUtility.png, id=23, 579.66562pt x 140.77594pt>
 File: Immagini/outputUtility.png Graphic file (type png)
 <use Immagini/outputUtility.png>
-Package pdftex.def Info: Immagini/outputUtility.png  used on input line 83.
+Package pdftex.def Info: Immagini/outputUtility.png  used on input line 85.
 (pdftex.def)             Requested size: 272.99881pt x 66.30002pt.
 
 
-[3 <./Immagini/Utility.png> <./Immagini/outputUtility.png>]
+[4 <./Immagini/Utility.png> <./Immagini/outputUtility.png>]
 
-[4]
-<Immagini/GeneralTree.png, id=29, 1284.8pt x 716.6775pt>
+[5]
+<Immagini/TreesHierarchy.png, id=32, 541.27219pt x 304.13625pt>
+File: Immagini/TreesHierarchy.png Graphic file (type png)
+<use Immagini/TreesHierarchy.png>
+Package pdftex.def Info: Immagini/TreesHierarchy.png  used on input line 122.
+(pdftex.def)             Requested size: 272.99881pt x 153.39963pt.
+<Immagini/GeneralTree.png, id=33, 1284.8pt x 716.6775pt>
 File: Immagini/GeneralTree.png Graphic file (type png)
 <use Immagini/GeneralTree.png>
-Package pdftex.def Info: Immagini/GeneralTree.png  used on input line 116.
+Package pdftex.def Info: Immagini/GeneralTree.png  used on input line 129.
 (pdftex.def)             Requested size: 272.99881pt x 152.27829pt.
-<Immagini/ADT_Tree.png, id=30, 480.29437pt x 445.665pt>
+
+
+[6 <./Immagini/TreesHierarchy.png> <./Immagini/GeneralTree.png (PNG copy)>]
+<Immagini/ADT_Tree.png, id=38, 480.29437pt x 445.665pt>
 File: Immagini/ADT_Tree.png Graphic file (type png)
 <use Immagini/ADT_Tree.png>
-Package pdftex.def Info: Immagini/ADT_Tree.png  used on input line 135.
+Package pdftex.def Info: Immagini/ADT_Tree.png  used on input line 148.
 (pdftex.def)             Requested size: 272.99881pt x 253.31766pt.
+<Immagini/BinaryTree.png, id=39, 597.73312pt x 243.15843pt>
+File: Immagini/BinaryTree.png Graphic file (type png)
+<use Immagini/BinaryTree.png>
+Package pdftex.def Info: Immagini/BinaryTree.png  used on input line 155.
+(pdftex.def)             Requested size: 272.99881pt x 111.05652pt.
+<Immagini/BinaryTreeADT.png, id=40, 582.67688pt x 341.02406pt>
+File: Immagini/BinaryTreeADT.png Graphic file (type png)
+<use Immagini/BinaryTreeADT.png>
+Package pdftex.def Info: Immagini/BinaryTreeADT.png  used on input line 163.
+(pdftex.def)             Requested size: 272.99881pt x 159.78178pt.
 
 
-[5 <./Immagini/GeneralTree.png (PNG copy)>]
+[7 <./Immagini/ADT_Tree.png> <./Immagini/BinaryTree.png>]
+<Immagini/BinaryTreesProperties.png, id=47, 414.79968pt x 587.19376pt>
+File: Immagini/BinaryTreesProperties.png Graphic file (type png)
+<use Immagini/BinaryTreesProperties.png>
+Package pdftex.def Info: Immagini/BinaryTreesProperties.png  used on input line 171.
+(pdftex.def)             Requested size: 272.99881pt x 386.47389pt.
 
-[6 <./Immagini/ADT_Tree.png>] (PyPrimer.aux)
+
+[8 <./Immagini/BinaryTreeADT.png>]
+<Immagini/BinaryTreesProperties2.png, id=52, 438.8897pt x 654.19406pt>
+File: Immagini/BinaryTreesProperties2.png Graphic file (type png)
+<use Immagini/BinaryTreesProperties2.png>
+Package pdftex.def Info: Immagini/BinaryTreesProperties2.png  used on input line 178.
+(pdftex.def)             Requested size: 272.99881pt x 406.93373pt.
+
+
+[9 <./Immagini/BinaryTreesProperties.png>]
+<Immagini/PreorderTraversal.png, id=57, 551.81157pt x 580.41844pt>
+File: Immagini/PreorderTraversal.png Graphic file (type png)
+<use Immagini/PreorderTraversal.png>
+Package pdftex.def Info: Immagini/PreorderTraversal.png  used on input line 186.
+(pdftex.def)             Requested size: 272.99881pt x 287.16188pt.
+
+
+[10 <./Immagini/BinaryTreesProperties2.png>]
+<Immagini/PostorderTraversal.png, id=62, 436.63126pt x 461.47406pt>
+File: Immagini/PostorderTraversal.png Graphic file (type png)
+<use Immagini/PostorderTraversal.png>
+Package pdftex.def Info: Immagini/PostorderTraversal.png  used on input line 192.
+(pdftex.def)             Requested size: 272.99881pt x 288.53323pt.
+
+
+[11 <./Immagini/PreorderTraversal.png>]
+<Immagini/RuntimeAnalysis.png, id=67, 419.31656pt x 133.24782pt>
+File: Immagini/RuntimeAnalysis.png Graphic file (type png)
+<use Immagini/RuntimeAnalysis.png>
+Package pdftex.def Info: Immagini/RuntimeAnalysis.png  used on input line 200.
+(pdftex.def)             Requested size: 272.99881pt x 86.75237pt.
+<Immagini/BreadthFirstTrav.png, id=68, 420.82219pt x 606.01407pt>
+File: Immagini/BreadthFirstTrav.png Graphic file (type png)
+<use Immagini/BreadthFirstTrav.png>
+Package pdftex.def Info: Immagini/BreadthFirstTrav.png  used on input line 208.
+(pdftex.def)             Requested size: 272.99881pt x 393.13698pt.
+
+
+[12 <./Immagini/PostorderTraversal.png> <./Immagini/RuntimeAnalysis.png>]
+<Immagini/InorderTraversal.png, id=74, 388.45125pt x 560.8453pt>
+File: Immagini/InorderTraversal.png Graphic file (type png)
+<use Immagini/InorderTraversal.png>
+Package pdftex.def Info: Immagini/InorderTraversal.png  used on input line 216.
+(pdftex.def)             Requested size: 272.99881pt x 394.16367pt.
+
+
+[13 <./Immagini/BreadthFirstTrav.png>]
+<Immagini/TreeTravPython.png, id=80, 406.51875pt x 387.69844pt>
+File: Immagini/TreeTravPython.png Graphic file (type png)
+<use Immagini/TreeTravPython.png>
+Package pdftex.def Info: Immagini/TreeTravPython.png  used on input line 224.
+(pdftex.def)             Requested size: 272.99881pt x 260.36592pt.
+
+
+[14 <./Immagini/InorderTraversal.png>]
+<Immagini/PreorderPython.png, id=85, 319.1925pt x 657.95813pt>
+File: Immagini/PreorderPython.png Graphic file (type png)
+<use Immagini/PreorderPython.png>
+Package pdftex.def Info: Immagini/PreorderPython.png  used on input line 232.
+(pdftex.def)             Requested size: 272.99881pt x 562.74077pt.
+
+
+[15 <./Immagini/TreeTravPython.png>]
+<Immagini/PostorderPython.png, id=90, 340.27126pt x 243.15843pt>
+File: Immagini/PostorderPython.png Graphic file (type png)
+<use Immagini/PostorderPython.png>
+Package pdftex.def Info: Immagini/PostorderPython.png  used on input line 240.
+(pdftex.def)             Requested size: 272.99881pt x 195.09468pt.
+
+
+[16 <./Immagini/PreorderPython.png>]
+<Immagini/BreadthFirstPython.png, id=95, 394.47375pt x 109.1578pt>
+File: Immagini/BreadthFirstPython.png Graphic file (type png)
+<use Immagini/BreadthFirstPython.png>
+Package pdftex.def Info: Immagini/BreadthFirstPython.png  used on input line 248.
+(pdftex.def)             Requested size: 272.99881pt x 75.54381pt.
+<Immagini/InorderPython.png, id=96, 304.88907pt x 644.4075pt>
+File: Immagini/InorderPython.png Graphic file (type png)
+<use Immagini/InorderPython.png>
+Package pdftex.def Info: Immagini/InorderPython.png  used on input line 256.
+(pdftex.def)             Requested size: 272.99881pt x 577.02138pt.
+
+
+[17 <./Immagini/PostorderPython.png> <./Immagini/BreadthFirstPython.png>]
+Overfull \vbox (11.85469pt too high) has occurred while \output is active []
+
+
+
+[18 <./Immagini/InorderPython.png>] (PyPrimer.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-11>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4998 strings out of 468149
- 80331 string characters out of 5431082
- 502025 words of memory out of 5000000
- 33560 multiletter control sequences out of 15000+600000
+ 5110 strings out of 468149
+ 84243 string characters out of 5431082
+ 502027 words of memory out of 5000000
+ 33669 multiletter control sequences out of 15000+600000
  636441 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,8n,65p,491b,266s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\miche\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/miche/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/miche/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/miche/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/miche/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/miche/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on PyPrimer.pdf (6 pages, 2310368 bytes).
+Output written on PyPrimer.pdf (18 pages, 3443693 bytes).
 PDF statistics:
- 63 PDF objects out of 1000 (max. 8388607)
+ 132 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 
