@@ -1,0 +1,9 @@
+\babel@toc {italian}{}\relax 
+\babel@toc {italian}{}\relax 
+\contentsline {section}{\numberline {1}AVL Trees}{2}{}%
+\contentsline {subsection}{\numberline {1.1}Balanced Tree}{3}{}%
+\contentsline {subsection}{\numberline {1.2}AVL Tree definition}{4}{}%
+\contentsline {subsection}{\numberline {1.3}AVL Tree Rotations}{5}{}%
+\contentsline {subsubsection}{\numberline {1.3.1}First \& Second Case}{5}{}%
+\contentsline {subsubsection}{\numberline {1.3.2}Third \& Fourth Case}{5}{}%
+\contentsline {subsection}{\numberline {1.4}Performance}{6}{}%

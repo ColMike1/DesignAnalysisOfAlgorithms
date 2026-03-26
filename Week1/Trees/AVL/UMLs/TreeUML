@@ -1,0 +1,102 @@
+classDiagram
+    class Tree {
+        <<Abstract>>
+        +root()
+        +parent(p)
+        +num_children(p)
+        +is_root(p)
+        +depth(p)
+    }
+
+    class BinaryTree {
+        <<Abstract>>
+        +left(p)
+        +right(p)
+        +sibling(p)
+    }
+
+    class LinkedBinaryTree {
+        -root
+        -size
+        +_add_root(e)
+        +_add_left(p, e)
+        #_validate(p)
+    }
+
+    class MapBase {
+        <<Abstract>>
+    }
+
+    class Item {
+        +_key
+        +_value
+    }
+
+    class TreeMap {
+        +_Item : alias to MapBase.Item
+        +__getitem__(k)
+        +__setitem__(k, v)
+        #_subtree_search(p, k)
+    }
+
+    Tree <|-- BinaryTree
+    BinaryTree <|-- LinkedBinaryTree
+    MapBase <|-- TreeMap
+    LinkedBinaryTree <|-- TreeMap
+    MapBase *-- Item : contiene
+    
+    %% Classi Interne (Nested)
+    Tree *-- Tree_Position : Position
+    LinkedBinaryTree *-- Node : _Node
+    TreeMap *-- TreeMap_Position : Position
+
+    class Tree_Position {
+        <<Interface>>
+        +element()
+    }
+    
+    class Node {
+        -element
+        -parent
+        -left
+        -right
+    }
+
+    class TreeMap_Position {
+        +key()
+        +value()
+    }
+
+
+    direction TB
+    class TreeMap {
+        <<Concrete>>
+        +_rebalance_insert(p)
+        +_rebalance_delete(p)
+        +_rebalance_access(p)
+    }
+
+    class AVLTreeMap {
+        +_rebalance(p)
+        #_recompute_height(p)
+        #_isbalanced(p)
+        #_tall_child(p)
+    }
+
+    class AVL_Node {
+        -_height : int
+        +left_height()
+        +right_height()
+    }
+
+    TreeMap <|-- AVLTreeMap : Eredita e sovrascrive Hook
+    TreeMap *-- TreeMap_Node : _Node base
+    AVLTreeMap *-- AVL_Node : _Node specializzato
+    TreeMap_Node <|-- AVL_Node : Eredita struttura
+
+    class TreeMap_Node {
+        -_element
+        -_parent
+        -_left
+        -_right
+    }

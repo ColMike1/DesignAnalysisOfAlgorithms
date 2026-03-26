@@ -1,0 +1,24 @@
+\babel@toc {italian}{}\relax 
+\babel@toc {italian}{}\relax 
+\contentsline {section}{\numberline {1}Introduzione a Python}{2}{}%
+\contentsline {section}{\numberline {2}Il Flusso di Esecuzione}{2}{}%
+\contentsline {subsection}{\numberline {2.1}Confronto tra C e Python}{3}{}%
+\contentsline {subsection}{\numberline {2.2}Esempio}{4}{}%
+\contentsline {subsection}{\numberline {2.3}Conclusione}{5}{}%
+\contentsline {section}{\numberline {3}Trees Hierarchy}{6}{}%
+\contentsline {subsection}{\numberline {3.1}General Tree}{6}{}%
+\contentsline {subsubsection}{\numberline {3.1.1}General Tree - Abstract Data Type}{7}{}%
+\contentsline {subsection}{\numberline {3.2}Binary Tree}{8}{}%
+\contentsline {subsubsection}{\numberline {3.2.1}Binary Tree - Abstract Data Type}{8}{}%
+\contentsline {subsubsection}{\numberline {3.2.2}Properties of Binary Trees}{9}{}%
+\contentsline {subsection}{\numberline {3.3}Linked Binary Tree}{10}{}%
+\contentsline {subsection}{\numberline {3.4}General Tree Traversal}{12}{}%
+\contentsline {subsubsection}{\numberline {3.4.1}Preorder e Postorder}{12}{}%
+\contentsline {paragraph}{H}{14}{}%
+\contentsline {subsubsection}{\numberline {3.4.2}Breadth-First Tree Traversal}{15}{}%
+\contentsline {subsubsection}{\numberline {3.4.3}Inorder Traversal}{16}{}%
+\contentsline {subsubsection}{\numberline {3.4.4}Tree Traversal in Python}{17}{}%
+\contentsline {paragraph}{Preorder in Python}{17}{}%
+\contentsline {paragraph}{Postorder in Python}{19}{}%
+\contentsline {paragraph}{Breadth-First in Python}{19}{}%
+\contentsline {paragraph}{Inoredr in Python}{19}{}%
