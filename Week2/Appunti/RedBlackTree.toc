@@ -1,0 +1,6 @@
+\babel@toc {italian}{}\relax 
+\babel@toc {italian}{}\relax 
+\contentsline {section}{\numberline {1}Red-Black Trees}{2}{}%
+\contentsline {subsection}{\numberline {1.1}Proprietà Fondamentali}{2}{}%
+\contentsline {subsection}{\numberline {1.2}Relazione con gli (2,4)-Trees}{3}{}%
+\contentsline {subsection}{\numberline {1.3}Inserimento in un Red-Black Tree}{3}{}%

@@ -1,0 +1,16 @@
+\babel@toc {italian}{}\relax 
+\babel@toc {italian}{}\relax 
+\contentsline {section}{\numberline {1}MultiWay Search Trees \& B-Trees}{2}{}%
+\contentsline {subsection}{\numberline {1.1}Multiway Search Tree}{2}{}%
+\contentsline {subsubsection}{\numberline {1.1.1}Useful Property}{2}{}%
+\contentsline {subsection}{\numberline {1.2}a-bTree}{2}{}%
+\contentsline {subsubsection}{\numberline {1.2.1}Altezza di un abTree}{3}{}%
+\contentsline {subsubsection}{\numberline {1.2.2}Ricerca in un abTree}{4}{}%
+\contentsline {subsubsection}{\numberline {1.2.3}Inserimento in un abTree}{5}{}%
+\contentsline {subsubsection}{\numberline {1.2.4}Cancellazione abTree}{5}{}%
+\contentsline {subsection}{\numberline {1.3}B-tree}{5}{}%
+\contentsline {subsection}{\numberline {1.4}Differenze tra MWST, ab-Tree, Btree}{5}{}%
+\contentsline {subsubsection}{\numberline {1.4.1}MWST}{5}{}%
+\contentsline {subsubsection}{\numberline {1.4.2}a-bTree}{6}{}%
+\contentsline {subsubsection}{\numberline {1.4.3}Btree}{6}{}%
+\contentsline {subsection}{\numberline {1.5}Quindi...}{7}{}%
